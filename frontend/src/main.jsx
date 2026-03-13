@@ -7,11 +7,11 @@ import React from 'react'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <StrictMode>
     <CartProvider>
       <BrowserRouter>
         <App />
       </BrowserRouter>
     </CartProvider>
-  </React.StrictMode>
+  </StrictMode>
 )
