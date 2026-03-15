@@ -86,8 +86,8 @@ Your Cart
 
 </div>
 
-<span className="font-bold text-primary">
-${(item.price * item.quantity).toFixed(2)}
+<span className="font-bold text-primary">₹
+{(item.price * item.quantity).toFixed(2)}
 </span>
 
 </div>
@@ -107,7 +107,7 @@ ${(item.price * item.quantity).toFixed(2)}
 
 <div className="flex justify-between mb-4">
 <span>Subtotal</span>
-<span>${total.toFixed(2)}</span>
+<span>₹{total.toFixed(2)}</span>
 </div>
 
 <button className="btn btn-primary w-full">
