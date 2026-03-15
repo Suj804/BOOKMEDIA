@@ -207,7 +207,7 @@ className="w-full h-full object-cover transform group-hover:scale-105 transition
 <div className="flex items-center justify-between">
 
 <span className="text-lg font-bold text-primary">
-${book.price.toFixed(2)}
+₹{book.price.toFixed(2)}
 </span>
 
 <div className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-content rounded-xl font-medium">
