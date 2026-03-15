@@ -16,8 +16,9 @@ const port=process.env.PORT || 3001
 // app.listen(port,() =>{
 //     console.log(`http://localhost:${port
 app.use(cors({
-    
-}))
+  origin: "https://bookmedia-1.onrender.com", // your frontend static site URL
+  credentials: true
+}));
 app.use(express.json());
 app.use("/books",bookRoutes)
 connectDB().then(() => {
