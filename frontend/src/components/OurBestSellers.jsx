@@ -136,7 +136,7 @@ const OurBestSellers = () => {
                   <div className="flex flex-col xs:flex-row items-start xs:items-center justify-between gap-3">
 
                     <span className="text-xl md:text-2xl font-bold text-base-content">
-                      ${book.price.toFixed(2)}
+                      ₹{book.price.toFixed(2)}
                     </span>
 
                     {inCart(book.id) ? (
