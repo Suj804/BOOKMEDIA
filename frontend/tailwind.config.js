@@ -1,5 +1,5 @@
 import daisyui from "daisyui";
-/** @type {import('tailwindcss').Config} */
+
 export default {
   content: [
     "./index.html",
@@ -9,7 +9,12 @@ export default {
     extend: {},
   },
   plugins: [daisyui],
-  daisyui:{
-    themes:["cupcake"]
+  daisyui: {
+    themes: ["cupcake"],
+    darkTheme: false,
+    base: true,
+    styled: true,
+    utils: true,
+    logs: false,
   },
 }
